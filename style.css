@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container{
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-box{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input{
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button{
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#add-btn{
+    background: #333;
+    color: white;
+}
+#clrbtn{
+    background: #ff0000;
+    color: white;
+}
+li{
+    list-style: none;
+    background: #eee;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.todo-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.completed{
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+.actions{
+    display: flex;
+    gap: 5px;
+}
+
+.edit-btn{
+    background: orange;
+    color: white;
+}
+
+.delete-btn{
+    background: red;
+    color: white;
+}
